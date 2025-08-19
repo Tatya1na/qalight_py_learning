@@ -29,7 +29,7 @@ sum_dict = {}
 
 # task 7.
 line = "Створіть множину всіх символів, які входять у заданий рядок"
-symbols = list(line)
+symbols = set(line)
 print(symbols)
 
 # task 8. Обчисліть суму елементів двох множин, які не є спільними
