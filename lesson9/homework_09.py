@@ -84,7 +84,7 @@ small_list = [3, 1, 4, 5, 2, 5, 3]
 unique_elements = [x for x in small_list if small_list.count(x) == 1]
 print(unique_elements)
 """
-def unique_elements (lst):
+def unique_elements(lst):
     return [x for x in lst if lst.count(x) == 1]
 small_list = [3, 1, 4, 5, 2, 5, 3]
 find_elements = unique_elements(small_list)
