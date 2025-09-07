@@ -67,10 +67,7 @@ print("Найдовше слово ", result)
 у перший рядок, якщо другий рядок є підрядком першого рядка, та -1, якщо другий рядок
 не є підрядком першого рядка."""
 def find_substring(str1, str2):
-      if str2 in str1:
-        return str1.index(str2)
-      else:
-        return -1
+      return str1.index(str2)
 
 str1 = "Hello, world!"
 str2 = "world"
