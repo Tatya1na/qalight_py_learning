@@ -152,6 +152,3 @@ def pizza_topping(topping):
 user_topping = input("Add pizza topping or 'quit' to stop: ").lower()
 result = pizza_topping(user_topping)
 print(result)   
-
-    
-    
