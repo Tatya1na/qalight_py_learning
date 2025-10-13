@@ -16,7 +16,7 @@ def time_to_seconds(time_str):
         logging.error(f"Error converting time: {time_str}. Error: {e}")
         return None
 
-def analyze_log(filename:str = "hblog.txt"):
+def analyze_log(filename: str = "hblog.txt"):
     filename = Path(__file__).parent / filename
     print(f"Reading from file: {filename}")
 
@@ -35,7 +35,7 @@ def analyze_log(filename:str = "hblog.txt"):
         unique_sorted_timestamps = sorted(set(timestamps))
 
         for i in range(1, len(unique_sorted_timestamps)):
-            heartbeat = unique_sorted_timestamps[i] - unique_sorted_timestamps[i-1]
+            heartbeat = (unique_sorted_timestamps[i] - unique_sorted_timestamps[i-1]).total_seconds()
 
             if 31 < heartbeat <= 33:
                 logging.warning(f"Heartbeat between {unique_sorted_timestamps[i-1]} and {unique_sorted_timestamps[i]} was {heartbeat} seconds")
