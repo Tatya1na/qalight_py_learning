@@ -1,0 +1,8 @@
+2025-10-13 17:48:43,440 - ERROR - An error occurred: '<' not supported between instances of 'int' and 'datetime.timedelta'
+2025-10-13 17:52:03,038 - ERROR - File /Users/t.chornobai/Documents/qa_light_learning/qalight_py_learning/lesson20/hblog.txt not found
+2025-10-13 17:53:27,352 - ERROR - File /Users/t.chornobai/Documents/qa_light_learning/qalight_py_learning/lesson20/hblog.txt not found
+2025-10-13 17:54:10,567 - ERROR - Heartbeat between 1900-01-01 01:14:23 and 1900-01-01 01:14:58 was 35.0 seconds
+2025-10-13 17:54:10,567 - WARNING - Heartbeat between 1900-01-01 01:34:38 and 1900-01-01 01:35:10 was 32.0 seconds
+2025-10-13 17:54:10,567 - ERROR - Heartbeat between 1900-01-01 02:26:30 and 1900-01-01 02:27:06 was 36.0 seconds
+2025-10-13 17:54:10,567 - ERROR - Heartbeat between 1900-01-01 03:38:36 and 1900-01-01 03:39:11 was 35.0 seconds
+2025-10-13 17:54:10,567 - ERROR - Heartbeat between 1900-01-01 04:50:42 and 1900-01-01 04:51:17 was 35.0 seconds
