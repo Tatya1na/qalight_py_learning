@@ -16,8 +16,8 @@ def time_to_seconds(time_str):
         logging.error(f"Error converting time: {time_str}. Error: {e}")
         return None
 
-def analyze_log():
-    filename = Path(__file__).parent / "hblog.txt"
+def analyze_log(filename:str = "hblog.txt"):
+    filename = Path(__file__).parent / filename
     print(f"Reading from file: {filename}")
 
     try:
