@@ -11,7 +11,7 @@ logging.basicConfig(filename=str(log_file_path), level=logging.DEBUG,
 def time_to_seconds(time_str):
     try:
         time_obj = datetime.strptime(time_str, "%H:%M:%S")
-        return time_obj.hour * 3600 + time_obj.minute * 60 + time_obj.second
+        return time_obj
     except ValueError as e:
         logging.error(f"Error converting time: {time_str}. Error: {e}")
         return None
